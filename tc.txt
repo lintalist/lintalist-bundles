@@ -1,0 +1,2331 @@
+BundleFormat: 1
+Name: Total Commander
+Description: Total Commander 8.5
+Author: Lintalist
+TitleMatch: Total Commander 8.5, Total Commander (x64) 8.5
+Patterns:
+- LLPart1: Source: Show comments
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 300, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Only file names
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 301, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: All file details
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 302, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Directory tree
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 303, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Quick view panel
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 304, 0, , ahk_class TTOTAL_CMD
+- LLPart1: File windows above each other
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 305, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Quick view, no plugins
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 306, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Quick view panel off
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 307, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Only programs
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 311, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: All files
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 312, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Last selected
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 313, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Select user type
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 314, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by name
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 321, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by extension
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 322, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by size
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 323, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by date
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 324, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Unsorted
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 325, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Reversed order
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 330, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Open drive list
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 331, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Thumbnail view
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 269, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom view menu
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 270, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Put focus on path
+  LLPart2: Source
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 332, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Show comments
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 100, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Only file names
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 101, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: All file details
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 102, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Directory tree
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 103, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Quick view panel
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 104, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Quick view, no plugins
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 106, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Quick view panel off
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 107, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Only programs
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 111, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: All files
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 112, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Last selected
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 113, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Select user type
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 114, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by name
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 121, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by extension
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 122, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by size
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 123, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by date
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 124, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Unsorted
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 125, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Reversed order
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 130, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Open drive list
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 131, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Put focus on path
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 132, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Branch view
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2034, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: branch view, only selected
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2047, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Thumbnail view
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 69, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom view menu
+  LLPart2: Left
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 70, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Show comments
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 200, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Only file names
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 201, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: All file details
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 202, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Directory tree
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 203, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Quick view panel
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 204, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Quick view, no plugins
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 206, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Quick view panel off
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 207, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Only programs
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 211, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: All files
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 212, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Last selected
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 213, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Select user type
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 214, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by name
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 221, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by extension
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 222, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by size
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 223, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by date
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 224, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Unsorted
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 225, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Reversed order
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 230, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Open drive list
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 231, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Put focus on path
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 232, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: branch view
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2035, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: branch view, only selected
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2048, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Thumbnail view
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 169, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom view menu
+  LLPart2: Right
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 170, 0, , ahk_class TTOTAL_CMD
+- LLPart1: View with Lister
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 903, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Lister without plugins/multimedia
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1006, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Edit (Notepad)
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 904, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy files
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 905, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy within panel
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3100, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy to other
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3101, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Rename/Move files
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 906, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Make directory
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 907, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Delete files
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 908, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Test selected archives
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 518, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Pack files
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 508, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unpack all
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 509, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Rename (Shift+F6)
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1002, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Rename file under cursor
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1007, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Move (F6)
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1005, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Properties dialog
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1003, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Create a shortcut
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1004, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Simulate: Return pressed
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 1001, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open program under cursor as different user
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2800, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Split file into pieces
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 560, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Combine partial files
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 561, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Encode MIME/UUE/XXE
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 562, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Decode MIME/UUE/XXE/BinHex
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 563, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Create CRC checksums
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 564, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Verify CRC checksums
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 565, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Change attributes
+  LLPart2: FileOperations
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 502, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Layout (first page)
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 490, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Display
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 486, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Icons
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 477, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Font
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 492, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Colors
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 494, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Tabstops
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 497, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Directory tabs
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 488, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Custom colums
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 483, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Change current custom columns
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2920, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Language
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 499, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Operation
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 516, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Viewer/Editor
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 496, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Copy/Delete
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 487, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Refresh file lists
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 478, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Quick Search
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 479, 0, , ahk_class TTOTAL_CMD
+- LLPart1: FTP options
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 489, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Plugins
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 484, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Thumbnails
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 482, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Log file
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 481, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Ignore list
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 480, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Packer
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 491, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: ZIP packer
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 485, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Misc, Confirmation
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 495, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Save position
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 493, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Conf: Button bar
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 498, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save current paths etc.
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 580, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open ini files in notepad
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 581, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save directory history
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 582, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Change Start menu
+  LLPart2: Configuration
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 700, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Network connections
+  LLPart2: Network
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 512, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Disconnect network drives
+  LLPart2: Network
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 513, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Share directory
+  LLPart2: Network
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 514, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unshare directory
+  LLPart2: Network
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 515, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Connect to admin share to open \\server\c$ etc.
+  LLPart2: Network
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2204, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Which remote user has opened a local file
+  LLPart2: Network
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2203, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Calculate space
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 503, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Volume label
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 505, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Version information
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 510, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open command prompt window
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 511, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Compare dirs
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 533, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Also mark subdirs not present in other dir
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 536, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show context menu
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2500, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show context menu for internal associations
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2927, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Internal context menu for file under cursor
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2928, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Context menu for Media Center remote control Play/Pause
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2930, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Synchronous directory changing in both windows
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2600, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Edit file comment
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2700, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Focus on left file list
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 4001, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Focus on right file list
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 4002, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Focus on command line
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 4003, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Focus on button bar
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 4004, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Calculate space occupied by subdirs in current dir
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2014, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unload all plugins
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2913, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Mark newer
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 534, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Swap panels
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 531, 0, , ahk_class TTOTAL_CMD
+- LLPart1: target
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 532, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Re-load selected thumbnails
+  LLPart2: Misc
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2918, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Connect to other PC by cable
+  LLPart2: ParallelPort
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2300, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Install parallel port driver on NT
+  LLPart2: ParallelPort
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2301, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Remove parallel port driver on NT
+  LLPart2: ParallelPort
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2302, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Print current directory (with preview)
+  LLPart2: Print
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2027, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Print dir with subdirs
+  LLPart2: Print
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2028, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Print file
+  LLPart2: Print
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 504, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select group
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 521, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select group: files+folders
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3311, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select group: just files
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3312, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select group: just folders
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3313, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect group
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 522, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect group: just files
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3314, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect group: just folders
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3315, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect group (files or both, as configured)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3316, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all (files or both, as configured)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 523, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select both files+folders
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3301, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all files
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3302, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all folders
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3303, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all (files+folders)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 524, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all files
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3304, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all folders
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3305, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all (files or both, as configured)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3306, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Invert selection
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 525, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Invert selection (files+folders)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3321, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Invert selection (files)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3322, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Invert selection (folders)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3323, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all files with same ext.
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 527, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all files with same ext.
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 528, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all files with same name
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 541, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all files with same name
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 542, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all files with same name+ext.
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 543, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all files with same name+ext.
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 544, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select all in same path (for branch view+search)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 537, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Unselect all in same path
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 538, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Selection before last operation
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 529, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Temporarily save selection
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 530, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save file selection to file
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2031, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save file selection to file (ANSI)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2041, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save file selection to file (Unicode)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2042, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save all shown columns to file
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2039, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save all shown columns to file (ANSI)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2043, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Save all shown columns to file (Unicode)
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2044, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Read file selection from file
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2032, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Read file selection from clipboard
+  LLPart2: Mark
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2033, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Permissions dialog (NTFS)
+  LLPart2: Security
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2200, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Typo...
+  LLPart2: Security
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2200, 0, , ahk_class TTOTAL_CMD
+- LLPart1: File auditing (NTFS)
+  LLPart2: Security
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2201, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Take ownership (NTFS)
+  LLPart2: Security
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2202, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Cut selected files to clipboard
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2007, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy selected files to clipboard
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2008, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Paste from clipboard to current dir
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2009, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy filenames to clipboard
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2017, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy names with full path
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2018, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy names with UNC path
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2021, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy source path to clipboard
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2029, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy target path to clipboard
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2030, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy all shown columns
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2036, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy all columns, with full path
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2037, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy all columns, with UNC path
+  LLPart2: Clipboard
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2038, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Connect to FTP
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 550, 0, , ahk_class TTOTAL_CMD
+- LLPart1: New FTP connection
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 551, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Disconnect from FTP
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 552, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show hidden FTP files
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 553, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Abort current FTP command
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 554, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Resume aborted download
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 555, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select Binary, ASCII or Auto mode
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 556, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Add selected files to download list
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 557, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Download files in download list
+  LLPart2: FTP
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 558, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go back
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 570, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go forward
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 571, 0, , ahk_class TTOTAL_CMD
+- LLPart1: History list
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 572, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go back, no ftp
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 573, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go forward, no ftp
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 574, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Directory popup menu
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 526, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go to root directory
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2001, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go to parent directory
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2002, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open dir or zip under cursor
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2003, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Desktop folder
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2121, 0, , ahk_class TTOTAL_CMD
+- LLPart1: My computer
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2122, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Control panel
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2123, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Fonts folder
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2124, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Network neighborhood
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2125, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Printers folder
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2126, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Recycle bin
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2127, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Popup directory tree
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 500, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Transfer dir under cursor to left window
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2024, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Transfer dir under cursor to right window
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2025, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Edit path field above file list
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2912, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Place cursor on first file in list
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2050, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go one drive up (C->D)
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2051, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go one drive down
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2052, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go to next selected file
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2053, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go to previous selected file
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2054, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to drive A
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2061, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to drive C
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2063, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to drive D
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2064, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to drive E
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2065, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to drive F
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2066, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to drive Z
+  LLPart2: Navigation
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2086, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Help index
+  LLPart2: Help
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 610, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Keyboard help
+  LLPart2: Help
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 620, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Registration info
+  LLPart2: Help
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 630, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Visit http://www.ghisler.com/
+  LLPart2: Help
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 640, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Help/About Total Commander
+  LLPart2: Help
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 690, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Exit Total Commander
+  LLPart2: Window
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 24340, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Minimize Total Commander
+  LLPart2: Window
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2000, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Maximize Total Commander
+  LLPart2: Window
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2015, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Restore normal size
+  LLPart2: Window
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2016, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Clear command line
+  LLPart2: CommandLine
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2004, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Next command line
+  LLPart2: CommandLine
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2005, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Previous command line
+  LLPart2: CommandLine
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2006, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Copy path to command line
+  LLPart2: CommandLine
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2019, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Rename multiple files
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2400, 0, , ahk_class TTOTAL_CMD
+- LLPart1: System information
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 506, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Background transfer manager
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 559, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Search for
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 501, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Search in separate process
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 545, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Synchronize directories
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2020, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Associate
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 507, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Define internal associations
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 519, 0, , ahk_class TTOTAL_CMD
+- LLPart1: File comparison
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2022, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Use internal compare tool
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2040, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Browse internal commands
+  LLPart2: Tools
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2924, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide button bar
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2901, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide drive button bars
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2902, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide two drive bars
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2903, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Buttons: Flat/normal mode
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2904, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Interface: Flat/normal mode
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2905, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide drive combobox
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2906, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide current directory
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2907, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide Breadcrumb bar
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2926, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide tab header (sorting)
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2908, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide status bar
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2909, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide Command line
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2910, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide function key buttons
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2911, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show file tip window
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2914, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show name search window
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2915, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn long names on and off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2010, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Reread source
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 540, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Hide files which aren't selected
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2023, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn hidden/system files on and off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2011, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn hidden files on and off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3013, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn system files on and off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3014, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn 8.3 names lowercase on/off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2013, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn directory sorting by name on/off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2012, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show all files in current dir and all subdirs
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2026, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show selected files, and all in selected subdirs
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2046, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Window separator at 50%
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 909, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Window separator at 100%
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 910, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide folder tabs
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2916, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide XP theme background
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2923, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch icon overlays on/off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2917, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show/hide dir history+hotlist
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2919, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Enable/disable WatchDirs auto-refresh temporarily
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2921, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Enable/disable ignore list file to not show file names
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2922, 0, , ahk_class TTOTAL_CMD
+- LLPart1: 64-bit Windows: Redirect 32-bit system32 dir off/on
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 2925, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Disable separate tree panel
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3200, 0, , ahk_class TTOTAL_CMD
+- LLPart1: One separate tree panel
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3201, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Two separate tree panels
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3202, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch through tree panel options
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3203, 0, , ahk_class TTOTAL_CMD
+- LLPart1: One separate tree panel on/off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3204, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Two separate tree panels on/off
+  LLPart2: View
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3205, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 1
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 701, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 2
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 702, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 3
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 703, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 4
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 704, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 5
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 705, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 6
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 706, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 7
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 707, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 8
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 708, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 9
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 709, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Start menu item 10
+  LLPart2: User
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 710, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open new tab
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3001, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open new tab in background
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3002, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open dir under cursor in tab
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3003, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open dir under cursor (other window)
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3004, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to next Tab (as Ctrl+Tab)
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3005, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to previous Tab (Ctrl+Shift+Tab)
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3006, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Close tab
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3007, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Close all
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3008, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Show tab menu
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3009, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Turn on/off tab locking
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3010, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Same but with dir changes allowed
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3012, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Swap all Tabs
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 535, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Go to the base dir of locked tab
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 3011, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 1
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5001, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 2
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5002, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 3
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5003, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 4
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5004, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 5
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5005, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 6
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5006, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 7
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5007, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 8
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5008, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 9
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5009, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Activate tab 10
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5010, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 1
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5101, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 2
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5102, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 3
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5103, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 4
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5104, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 5
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5105, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 6
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5106, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 7
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5107, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 8
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5108, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 9
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5109, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Activate tab 10
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5110, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 1
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5201, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 2
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5202, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 3
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5203, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 4
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5204, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 5
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5205, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 6
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5206, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 7
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5207, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 8
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5208, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 9
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5209, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Activate tab 10
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5210, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 1
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5301, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 2
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5302, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 3
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5303, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 4
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5304, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 5
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5305, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 6
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5306, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 7
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5307, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 8
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5308, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 9
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5309, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Activate tab 10
+  LLPart2: Tabs
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5310, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 1
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6001, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 2
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6002, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 3
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6003, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 4
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6004, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 5
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6005, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 6
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6006, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 7
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6007, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 8
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6008, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 9
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6009, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Sort by column 10
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6010, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 1
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6101, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 2
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6102, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 3
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6103, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 4
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6104, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 5
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6105, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 6
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6106, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 7
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6107, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 8
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6108, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 9
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6109, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Sort by column 10
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6110, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 1
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6201, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 2
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6202, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 3
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6203, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 4
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6204, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 5
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6205, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 6
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6206, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 7
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6207, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 8
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6208, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 9
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6209, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Sort by column 10
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6210, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 1
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6301, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 2
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6302, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 3
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6303, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 4
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6304, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 5
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6305, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 6
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6306, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 7
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6307, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 8
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6308, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 9
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6309, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Sort by column 10
+  LLPart2: Sorting
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 6310, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 1
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 271, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 2
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 272, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 3
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 273, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 4
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 274, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 5
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 275, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 6
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 276, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 7
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 277, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 8
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 278, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Custom column view 9
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 279, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 1
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 71, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 2
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 72, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 3
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 73, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 4
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 74, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 5
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 75, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 6
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 76, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 7
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 77, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 8
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 78, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Custom column view 9
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 79, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 1
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 171, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 2
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 172, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 3
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 173, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 4
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 174, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 5
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 175, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 6
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 176, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 7
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 177, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 8
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 178, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Custom column view 9
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 179, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Next custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5501, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Source: Previous custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5502, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Next custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5503, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Target: Previous custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5504, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Next custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5505, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Left: Previous custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5506, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Next custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5507, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Right: Previous custom view
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5508, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Load on demand fields for all files
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5512, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Load on demand fields for selected files
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5513, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Stop loading on demand fields
+  LLPart2: Custom column views
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, 5514, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Stop loading on demand fields
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, These negative numbers are just used for translation and cannot be used instead of the commands, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to the given directory
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -2, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open tabs from saved .tab file
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -3, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Append tabs to existing tabs
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -4, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open stored ftp connection
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -5, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open stored sync operation
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -6, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open stored search operation
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -7, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Load button bar from file
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -8, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Open stored multi-rename operation
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -9, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Switch to custom columns view
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -10, 0, , ahk_class TTOTAL_CMD
+- LLPart1: Select files of specified types
+  LLPart2: Commands with parameters
+  LLKey:
+  LLShorthand:
+  LLScript: SendMessage 1075, -11, 0, , ahk_class TTOTAL_CMD

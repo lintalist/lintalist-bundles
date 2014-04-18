@@ -1,0 +1,186 @@
+BundleFormat: 1
+Name: BBCODE
+Description: BBCODE http://www.bbcode.org/reference.php
+Author: Lintalist
+TitleMatch: Post a reply,Edit post
+Patterns:
+- LLPart1: [b][[Selected]][/b]
+  LLPart2: Makes {text} bold
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [i][[Selected]][/i]
+  LLPart2: Makes {text} italic
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [u][[Selected]][/u]
+  LLPart2: Underlines {text}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [code][[Selected]][/code]
+  LLPart2: Renders the {text} while maintaing all white spacing
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [s][[Selected]][/s]
+  LLPart2: Create a line-through/strike through on {text}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [size=[[Choice=Tiny|Small|Normal|Large|Huge]]][[Selected]][/size]
+  LLPart2: Changes the font-size of {text}|
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [color=[[Choice=Default|Dark Red|Red|Orange|Brown|Yellow|Green|Olive|Cyan|Blue|Dark Blue|Indigo|Violet|White|Black]]][[Selected]][/color]
+  LLPart2: Changes the colour of {text}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [center][[Selected]][/center]
+  LLPart2: Centers {text} on screen
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [quote][[Selected]][/quote]
+  LLPart2: Creates a quotation box containing {text}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [quote=""][[Selected]][/quote]
+  LLPart2: Creates a quotation box quoting {name} as saying {text}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [url]{url}[/url]
+  LLPart2: Makes a link to {url}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [url=[[Selected]]][/url]
+  LLPart2: Makes a named link to {url}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [img][/img]
+  LLPart2: Shows the image indicated by {url}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [img=wxh][/img]
+  LLPart2: Shows {url} image resized to {width} and {height}
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [ul][li][[Selected]][/li][li][/li][/ul]
+  LLPart2: Displays an unordered list of items
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [ol][li][[Selected]][/li][li][/li][/ol]
+  LLPart2: Displays an ordered list of items
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :D')
+  LLPart2: Very Happy
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :)')
+  LLPart2: Smile
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :(')
+  LLPart2: Sad
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :o')
+  LLPart2: Surprised
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :shock:')
+  LLPart2: Shocked
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :?')
+  LLPart2: Confused
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: 8)')
+  LLPart2: Cool
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :lol:')
+  LLPart2: Laughing
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :x')
+  LLPart2: Mad
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :P')
+  LLPart2: Razz
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :oops:')
+  LLPart2: Embarassed
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :cry:')
+  LLPart2: Crying or Very sad
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :evil:')
+  LLPart2: Evil or Very Mad
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :twisted:')
+  LLPart2: Twisted Evil
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :roll:')
+  LLPart2: Rolling Eyes
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :wink:')
+  LLPart2: Wink
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :!:')
+  LLPart2: Exclamation
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :?:')
+  LLPart2: Question
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :idea:')
+  LLPart2: Idea
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: :arrow:')
+  LLPart2: Arrow
+  LLKey: 
+  LLShorthand: 
+  LLScript: 

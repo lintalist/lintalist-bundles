@@ -1,0 +1,1251 @@
+﻿BundleFormat: 1
+Name: Countries (ISO 3166-1-alpha-2 code)
+Description: SO 3166-1-alpha-2 code, see http://www.iso.org/iso/country_names_and_code_elements
+Author: Lintalist
+TitleMatch: 
+Patterns:
+- LLPart1: Afghanistan
+  LLPart2: AF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Åland Islands
+  LLPart2: AX
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Albania
+  LLPart2: AL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Algeria
+  LLPart2: DZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: American Samoa
+  LLPart2: AS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Andorra
+  LLPart2: AD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Angola
+  LLPart2: AO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Anguilla
+  LLPart2: AI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Antarctica
+  LLPart2: AQ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Antigua and Barbuda
+  LLPart2: AG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Argentina
+  LLPart2: AR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Armenia
+  LLPart2: AM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Aruba
+  LLPart2: AW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Australia
+  LLPart2: AU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Austria
+  LLPart2: AT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Azerbaijan
+  LLPart2: AZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bahamas
+  LLPart2: BS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bahrain
+  LLPart2: BH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bangladesh
+  LLPart2: BD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Barbados
+  LLPart2: BB
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Belarus
+  LLPart2: BY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Belgium
+  LLPart2: BE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Belize
+  LLPart2: BZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Benin
+  LLPart2: BJ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bermuda
+  LLPart2: BM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bhutan
+  LLPart2: BT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bolivia, Plurinational State of
+  LLPart2: BO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bonaire, Sint Eustatius and Saba
+  LLPart2: BQ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bosnia and Herzegovina
+  LLPart2: BA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Botswana
+  LLPart2: BW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bouvet Island
+  LLPart2: BV
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Brazil
+  LLPart2: BR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: British Indian Ocean Territory
+  LLPart2: IO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Brunei Darussalam
+  LLPart2: BN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Bulgaria
+  LLPart2: BG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Burkina Faso
+  LLPart2: BF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Burundi
+  LLPart2: BI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cambodia
+  LLPart2: KH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cameroon
+  LLPart2: CM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Canada
+  LLPart2: CA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cape Verde
+  LLPart2: CV
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cayman Islands
+  LLPart2: KY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Central African Republic
+  LLPart2: CF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Chad
+  LLPart2: TD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Chile
+  LLPart2: CL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: China
+  LLPart2: CN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Christmas Island
+  LLPart2: CX
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cocos (Keeling) Islands
+  LLPart2: CC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Colombia
+  LLPart2: CO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Comoros
+  LLPart2: KM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Congo
+  LLPart2: CG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Congo, The Democratic Republic of the
+  LLPart2: CD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cook Islands
+  LLPart2: CK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Costa Rica
+  LLPart2: CR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Côte d'Ivoire
+  LLPart2: CI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Croatia
+  LLPart2: HR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cuba
+  LLPart2: CU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Curaçao
+  LLPart2: CW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Cyprus
+  LLPart2: CY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Czech Republic
+  LLPart2: CZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Denmark
+  LLPart2: DK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Djibouti
+  LLPart2: DJ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Dominica
+  LLPart2: DM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Dominican Republic
+  LLPart2: DO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Ecuador
+  LLPart2: EC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Egypt
+  LLPart2: EG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: El Salvador
+  LLPart2: SV
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Equatorial Guinea
+  LLPart2: GQ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Eritrea
+  LLPart2: ER
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Estonia
+  LLPart2: EE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Ethiopia
+  LLPart2: ET
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Falkland Islands (Malvinas)
+  LLPart2: FK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Faroe Islands
+  LLPart2: FO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Fiji
+  LLPart2: FJ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Finland
+  LLPart2: FI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: France
+  LLPart2: FR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: French Guiana
+  LLPart2: GF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: French Polynesia
+  LLPart2: PF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: French Southern Territories
+  LLPart2: TF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Gabon
+  LLPart2: GA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Gambia
+  LLPart2: GM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Georgia
+  LLPart2: GE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Germany
+  LLPart2: DE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Ghana
+  LLPart2: GH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Gibraltar
+  LLPart2: GI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Greece
+  LLPart2: GR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Greenland
+  LLPart2: GL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Grenada
+  LLPart2: GD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guadeloupe
+  LLPart2: GP
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guam
+  LLPart2: GU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guatemala
+  LLPart2: GT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guernsey
+  LLPart2: GG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guinea
+  LLPart2: GN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guinea-Bissau
+  LLPart2: GW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Guyana
+  LLPart2: GY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Haiti
+  LLPart2: HT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Heard Island and Mcdonald Islands
+  LLPart2: HM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Holy See (Vatican City State)
+  LLPart2: VA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Honduras
+  LLPart2: HN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Hong Kong
+  LLPart2: HK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Hungary
+  LLPart2: HU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Iceland
+  LLPart2: IS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: India
+  LLPart2: IN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Indonesia
+  LLPart2: ID
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Iran, Islamic Republic of
+  LLPart2: IR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Iraq
+  LLPart2: IQ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Ireland
+  LLPart2: IE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Isle of Man
+  LLPart2: IM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Israel
+  LLPart2: IL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Italy
+  LLPart2: IT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Jamaica
+  LLPart2: JM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Japan
+  LLPart2: JP
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Jersey
+  LLPart2: JE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Jordan
+  LLPart2: JO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Kazakhstan
+  LLPart2: KZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Kenya
+  LLPart2: KE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Kiribati
+  LLPart2: KI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Korea, Democratic People's Republic Of
+  LLPart2: KP
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Korea, Republic Of
+  LLPart2: KR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Kuwait
+  LLPart2: KW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Kyrgyzstan
+  LLPart2: KG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Lao People's Democratic Republic
+  LLPart2: LA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Latvia
+  LLPart2: LV
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Lebanon
+  LLPart2: LB
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Lesotho
+  LLPart2: LS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Liberia
+  LLPart2: LR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Libya
+  LLPart2: LY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Liechtenstein
+  LLPart2: LI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Lithuania
+  LLPart2: LT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Luxembourg
+  LLPart2: LU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Macao
+  LLPart2: MO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Macedonia, The Former Yugoslav Republic Of
+  LLPart2: MK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Madagascar
+  LLPart2: MG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Malawi
+  LLPart2: MW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Malaysia
+  LLPart2: MY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Maldives
+  LLPart2: MV
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mali
+  LLPart2: ML
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Malta
+  LLPart2: MT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Marshall Islands
+  LLPart2: MH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Martinique
+  LLPart2: MQ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mauritania
+  LLPart2: MR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mauritius
+  LLPart2: MU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mayotte
+  LLPart2: YT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mexico
+  LLPart2: MX
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Micronesia, Federated States Of
+  LLPart2: FM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Moldova, Republic Of
+  LLPart2: MD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Monaco
+  LLPart2: MC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mongolia
+  LLPart2: MN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Montenegro
+  LLPart2: ME
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Montserrat
+  LLPart2: MS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Morocco
+  LLPart2: MA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Mozambique
+  LLPart2: MZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Myanmar
+  LLPart2: MM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Namibia
+  LLPart2: NA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Nauru
+  LLPart2: NR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Nepal
+  LLPart2: NP
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Netherlands
+  LLPart2: NL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: New Caledonia
+  LLPart2: NC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: New Zealand
+  LLPart2: NZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Nicaragua
+  LLPart2: NI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Niger
+  LLPart2: NE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Nigeria
+  LLPart2: NG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Niue
+  LLPart2: NU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Norfolk Island
+  LLPart2: NF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Northern Mariana Islands
+  LLPart2: MP
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Norway
+  LLPart2: NO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Oman
+  LLPart2: OM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Pakistan
+  LLPart2: PK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Palau
+  LLPart2: PW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Palestine, State Of
+  LLPart2: PS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Panama
+  LLPart2: PA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Papua New Guinea
+  LLPart2: PG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Paraguay
+  LLPart2: PY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Peru
+  LLPart2: PE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Philippines
+  LLPart2: PH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Pitcairn
+  LLPart2: PN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Poland
+  LLPart2: PL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Portugal
+  LLPart2: PT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Puerto Rico
+  LLPart2: PR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Qatar
+  LLPart2: QA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Réunion
+  LLPart2: RE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Romania
+  LLPart2: RO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Russian Federation
+  LLPart2: RU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Rwanda
+  LLPart2: RW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Barthélemy
+  LLPart2: BL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Helena, Ascension and Tristan da Cunha
+  LLPart2: SH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Kitts and Nevis
+  LLPart2: KN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Lucia
+  LLPart2: LC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Martin (French Part)
+  LLPart2: MF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Pierre and Miquelon
+  LLPart2: PM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saint Vincent and The Grenadines
+  LLPart2: VC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Samoa
+  LLPart2: WS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: San Marino
+  LLPart2: SM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Sao Tome and Principe
+  LLPart2: ST
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Saudi Arabia
+  LLPart2: SA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Senegal
+  LLPart2: SN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Serbia
+  LLPart2: RS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Seychelles
+  LLPart2: SC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Sierra Leone
+  LLPart2: SL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Singapore
+  LLPart2: SG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Sint Maarten (Dutch Part)
+  LLPart2: SX
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Slovakia
+  LLPart2: SK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Slovenia
+  LLPart2: SI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Solomon Islands
+  LLPart2: SB
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Somalia
+  LLPart2: SO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: South Africa
+  LLPart2: ZA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: South Georgia and The South Sandwich Islands
+  LLPart2: GS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: South Sudan
+  LLPart2: SS
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Spain
+  LLPart2: ES
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Sri Lanka
+  LLPart2: LK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Sudan
+  LLPart2: SD
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Suriname
+  LLPart2: SR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Svalbard and Jan Mayen
+  LLPart2: SJ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Swaziland
+  LLPart2: SZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Sweden
+  LLPart2: SE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Switzerland
+  LLPart2: CH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Syrian Arab Republic
+  LLPart2: SY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Taiwan, Province of China
+  LLPart2: TW
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Tajikistan
+  LLPart2: TJ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Tanzania, United Republic of
+  LLPart2: TZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Thailand
+  LLPart2: TH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Timor-Leste
+  LLPart2: TL
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Togo
+  LLPart2: TG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Tokelau
+  LLPart2: TK
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Tonga
+  LLPart2: TO
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Trinidad and Tobago
+  LLPart2: TT
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Tunisia
+  LLPart2: TN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Turkey
+  LLPart2: TR
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Turkmenistan
+  LLPart2: TM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Turks and Caicos Islands
+  LLPart2: TC
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Tuvalu
+  LLPart2: TV
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Uganda
+  LLPart2: UG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Ukraine
+  LLPart2: UA
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: United Arab Emirates
+  LLPart2: AE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: United Kingdom
+  LLPart2: GB
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: United States
+  LLPart2: US
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: United States Minor Outlying Islands
+  LLPart2: UM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Uruguay
+  LLPart2: UY
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Uzbekistan
+  LLPart2: UZ
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Vanuatu
+  LLPart2: VU
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Venezuela, Bolivarian Republic of
+  LLPart2: VE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Viet Nam
+  LLPart2: VN
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Virgin Islands, British
+  LLPart2: VG
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Virgin Islands, U.S.
+  LLPart2: VI
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Wallis and Futuna
+  LLPart2: WF
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Western Sahara
+  LLPart2: EH
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Yemen
+  LLPart2: YE
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Zambia
+  LLPart2: ZM
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Zimbabwe
+  LLPart2: ZW
+  LLKey:
+  LLShorthand:
+  LLScript:
