@@ -39,79 +39,23 @@ Patterns:
   LLKey: ^m
   LLShorthand: 
   LLScript: 
-- LLPart1: Bullet / Unordered list
-  LLPart2: 
+- LLPart1: [[selected=wrap|* ]]
+  LLPart2: Bullet / Unordered list
   LLKey: ^+u
   LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n* " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
-- LLPart1: Numbered / Ordered list
-  LLPart2: 
+  LLScript: 
+- LLPart1: [[SplitRepeat=selected|\n]][[Counter=ollistmarkdown|2|0]]. [[sp=1]]
+  LLPart2: Numbered / Ordered list
   LLKey: ^+o
   LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n" A_Index " " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
-- LLPart1: Blockquote
-  LLPart2: 
+  LLScript: 
+- LLPart1: [[selected=wrap|> ]]
+  LLPart2: Blockquote
   LLKey: ^+b
   LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n> " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
-- LLPart1: Code block
-  LLPart2: 
+  LLScript: 
+- LLPart1: [[selected=wrap|    ]]
+  LLPart2: Code block
   LLKey: ^+k
   LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n    " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
+  LLScript: 
