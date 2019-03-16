@@ -1,19 +1,9 @@
 ﻿BundleFormat: 1
 Name: MarkDown
-Description: MarkDown
+Description: MarkDown for v1.9.6.1+ (version 2)
 Author: Lintalist
 TitleMatch: .md
 Patterns:
-- LLPart1: **[[selected]]**
-  LLPart2: Bold
-  LLKey: ^b
-  LLShorthand: 
-  LLScript: 
-- LLPart1: __[[selected]]__
-  LLPart2: Italic
-  LLKey: ^i
-  LLShorthand: 
-  LLScript: 
 - LLPart1: # ^|
   LLPart2: Heading 1
   LLKey: ^!1
@@ -29,89 +19,48 @@ Patterns:
   LLKey: ^!3
   LLShorthand: 
   LLScript: 
+- LLPart1: **[[selected]]**
+  LLPart2: Bold
+  LLKey: ^b
+  LLShorthand: 
+  LLScript: 
+- LLPart1: _[[selected]]_
+  LLPart2: Italic
+  LLKey: ^i
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [[selected=wrap|* ]]
+  LLPart2: Bullet / Unordered list
+  LLKey: ^+u
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [[SplitRepeat=selected|\n]][[Counter=ollistmarkdown|1|0]]. [[sp=1]][[C=\n]]
+  LLPart2: Numbered / Ordered list
+  LLKey: ^+o
+  LLShorthand: 
+  LLScript: 
 - LLPart1: [[[selected]]](^|)
   LLPart2: Link
   LLKey: ^j
   LLShorthand: 
   LLScript: 
-- LLPart1: ![]([[selected]] "^|title")
+- LLPart1: `^|`
+  LLPart2: Inline Code
+  LLKey: 
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [[selected=wrap|    ]]
+  LLPart2: Code block
+  LLKey: ^+k
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [[selected=wrap|> ]]
+  LLPart2: Blockquote
+  LLKey: ^+b
+  LLShorthand: 
+  LLScript: 
+- LLPart1: ![^|Alt Text]([[selected]] "Optional title")
   LLPart2: Image
   LLKey: ^m
   LLShorthand: 
   LLScript: 
-- LLPart1: Bullet / Unordered list
-  LLPart2: 
-  LLKey: ^+u
-  LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n* " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
-- LLPart1: Numbered / Ordered list
-  LLPart2: 
-  LLKey: ^+o
-  LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n" A_Index " " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
-- LLPart1: Blockquote
-  LLPart2: 
-  LLKey: ^+b
-  LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n> " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
-- LLPart1: Code block
-  LLPart2: 
-  LLKey: ^+k
-  LLShorthand: 
-  LLScript: LLInit() ; fake call to load global variables from Lintalist main script
-ClipSet("s",1,SendMethod,Clipboard) ; store current clipboard contents
-ClearClipboard() ; clear it
-SendKey(SendMethod, "^x")                     ; get clipboard
-	; --- do you magic here ---
-	Clip=
-	Loop, Parse, Clipboard, `n, `r
-		Clip .= "`n    " A_LoopField
-	Clip .= "`n"
-	; /-- do you magic here ---
-Clipboard:=ClipSet("s",2,Clip)            ; set clip2
-Clipboard:=ClipSet("s",2,SendMethod,Clip) ; set clipboard 
-SendKey(SendMethod, "^v")                 ; paste changed clipboard
-Clip=                                     ; clear variable
-Clipboard:=ClipSet("g",1)                 ; restore original clipboard contents
