@@ -1,6 +1,6 @@
 ﻿BundleFormat: 1
 Name: MarkDown
-Description: MarkDown for v1.9.6.1+ (version 2)
+Description: MarkDown for v1.9.6.1+ (version 3)
 Author: Lintalist
 TitleMatch: .md
 Patterns:
@@ -37,6 +37,11 @@ Patterns:
 - LLPart1: [[SplitRepeat=selected|\n]][[Counter=ollistmarkdown|1|0]]. [[sp=1]][[C=\n]]
   LLPart2: Numbered / Ordered list
   LLKey: ^+o
+  LLShorthand: 
+  LLScript: 
+- LLPart1: [[SplitRepeat=selected|\n]][[Chr([[Calc=96+[[Counter=ollistmarkdown|1|0]]]])]]. [[sp=1]][[C=\n]]
+  LLPart2: a-z Ordered list (max 26 items)
+  LLKey: 
   LLShorthand: 
   LLScript: 
 - LLPart1: [[[selected]]](^|)
